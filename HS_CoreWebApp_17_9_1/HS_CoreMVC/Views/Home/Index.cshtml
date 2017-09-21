@@ -6,13 +6,13 @@
     <div ng-controller="indexController" class="row">
         <div class="col-xs-12">
             <h2>start here ...</h2>
-            one: {{ MessageOne }}
+            one: {{ controllerScope.MessageOne }}
             <br /><br />
-            two: {{ MessageTwo }}
+            two: {{ controllerScope.MessageTwo }}
             <br /><br />
-            three: {{ MessageThree }}
+            all: {{ controllerScope | json }}
             <br /><br />
-            f(): {{ FunctionOne() }}
+            @*f(): {{ FunctionOne() }}*@
             <br /><br />
         </div>
     </div>

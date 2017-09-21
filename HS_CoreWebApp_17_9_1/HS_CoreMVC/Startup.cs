@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using HS_CoreMVC.Models.Data;
+using HS_CoreMVC.Services;
 
 namespace HS_CoreMVC
 {
@@ -22,6 +25,11 @@ namespace HS_CoreMVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            var connection = @"Server=(localdb)\mssqllocaldb;Database=SoccerHome;Trusted_Connection=True;";
+            services.AddDbContext<SoccerContext>(options => options.UseSqlServer(connection));
+
+            services.AddScoped<ILeagueService, LeagueService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
