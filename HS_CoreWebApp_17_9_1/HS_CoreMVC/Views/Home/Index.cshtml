@@ -6,6 +6,7 @@
     <div ng-controller="indexController" class="row">
         <div class="col-xs-12">
             <h2>start here ...</h2>
+
             one: {{ controllerScope.MessageOne }}
             <br /><br />
             two: {{ controllerScope.MessageTwo }}
@@ -14,6 +15,8 @@
             <br /><br />
             @*f(): {{ FunctionOne() }}*@
             <br /><br />
+
+            <button ng-click="GetLeagues()" class="btn-danger">THIS WILL BLOW UP! lol ...</button>
         </div>
     </div>
 </div>

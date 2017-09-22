@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HS_CoreWebApp_17_9_1", "HS_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HS_CoreMVC", "HS_CoreMVC\HS_CoreMVC.csproj", "{D7AD468C-0713-42F0-B137-60938DBDEBE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS_CoreMvcTest", "HS_CoreMvcTest\HS_CoreMvcTest.csproj", "{76C4ADAC-8CEC-428A-B675-7D2F2ADA8EE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test461", "Test461\Test461.csproj", "{28EF09EC-9778-4F34-9A61-9731DD0A6868}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{D7AD468C-0713-42F0-B137-60938DBDEBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7AD468C-0713-42F0-B137-60938DBDEBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7AD468C-0713-42F0-B137-60938DBDEBE8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76C4ADAC-8CEC-428A-B675-7D2F2ADA8EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76C4ADAC-8CEC-428A-B675-7D2F2ADA8EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76C4ADAC-8CEC-428A-B675-7D2F2ADA8EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76C4ADAC-8CEC-428A-B675-7D2F2ADA8EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EF09EC-9778-4F34-9A61-9731DD0A6868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EF09EC-9778-4F34-9A61-9731DD0A6868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EF09EC-9778-4F34-9A61-9731DD0A6868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EF09EC-9778-4F34-9A61-9731DD0A6868}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
